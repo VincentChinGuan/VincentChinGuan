@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title class="OTP WEBSITE"></title>
+        <link rel="stylesheet" href="style.css" class="rel">
+        <script defer src="otp.js"></script>
+
+        <script
+            type="text/javascript"
+            scr="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" 
+        ></script>
+     
+    </head>
+    <body>
+        <div class="container step1">
+            <h2>OTP Verification</h2>
+            <br />
+            <h4>Enter your email address</h4>
+            <br />
+            <p>You will receive an email with a one-time password</p>
+
+
+ 
+            <div class="form-group">
+                <input type="email" id="emailaddress" placeholder="Email Adress" onkeyup="validateEmail(this.value)">
+
+            </div>
+            <button class="nextButton">Next &rarr;</button>
+        </div>
+
+        <div class="container step2">
+            <h2>OTP Verification</h2>
+            <br />
+            <h4>Enter one-time password</h4>
+            <br />
+            <p>A one-time password has been sent to <span id="verifyEmail"></span></p>
+
+            
+
+            <div class="otp-form">
+                <p>Enter the 4 digit code we sent you via email to continue</p>
+                <div class="otp-group">
+                    <input type="number" />
+                    <input type="number" />
+                    <input type="number" />
+                    <input type="number" />
+                </div>
+                <p>
+                    Not your email? / Didn't receive the code?
+                    <a href="javascript:void(0)">Try again</a>
+                </p>
+
+            </div>
+            <button class="verifyButton">verify &rarr;</button>
+        </div>
+        <div class="container step3">
+            <h2>Congratulation</h2>
+            <p> Welcome to Home page</p>
+            <img src="https://i.pinimg.com/736x/2a/67/0b/2a670b21f19efe4ea179d59e567eab0c.jpg">
+            <h2>Thank You</h2>
+            <p>Your OTP Verification has been completed successfully</p>
+
+            
+            
+        </div>
+    </body>
+</html>
