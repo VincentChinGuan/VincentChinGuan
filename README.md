@@ -16,7 +16,6 @@ MYS Government Service is a website that contains multiple systems to aid the go
 ## Live Website Link
 [MYS Government Service](https://moccasin-brinn-40.tiiny.site/)
 
-<a href="https://moccasin-brinn-40.tiiny.site/">MYS Government Service</a>
 
 ## Project Aim
 
